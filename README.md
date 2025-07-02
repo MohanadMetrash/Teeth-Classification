@@ -17,7 +17,6 @@ A deep learning project to classify dental images into seven different categorie
 - [Model Architecture](#model-architecture)
 - [Results & Evaluation](#results--evaluation)
 
-
 ---
 
 ## Project Overview
