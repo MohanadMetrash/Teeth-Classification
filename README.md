@@ -16,15 +16,13 @@ A deep learning project to classify dental images into seven different categorie
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Results & Evaluation](#results--evaluation)
-- [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [License](#license)
+
 
 ---
 
 ## Project Overview
 
-The goal of this project is to accurately classify images of human teeth into distinct categories. The model is trained on a dataset of dental images and can identify classes such as 'Caries', 'Crown', 'Endo', 'Filling', etc. *(**Note**: You should replace these with your actual class names)*. This project demonstrates the effectiveness of CNNs for medical image analysis and compares a baseline model against a model enhanced with data augmentation to prevent overfitting and improve generalization.
+The goal of this project is to accurately classify images of human teeth into distinct categories. The model is trained on a dataset of dental images and can identify classes such as 'CaS', 'CoS', 'Gum', 'MC', etc. This project demonstrates the effectiveness of CNNs for medical image analysis and compares a baseline model against a model enhanced with data augmentation to prevent overfitting and improve generalization.
 
 ---
 
