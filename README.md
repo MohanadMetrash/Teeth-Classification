@@ -70,7 +70,8 @@ The model with data augmentation achieved a test accuracy of **89%**. The traini
 
 The plots show that data augmentation helped in reducing overfitting, leading to a smaller gap between training and validation accuracy/loss.
 
-![Accuracy and Loss Plot](results/accuracy_loss_plot.png)
+![Training and validation accuracy](Training and validation accuracy.png)
+![Training and validation loss](results/Training and validation loss.png)
 
 ### Confusion Matrix
 
