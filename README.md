@@ -40,28 +40,9 @@ The goal of this project is to accurately classify images of human teeth into di
 
 The model was trained on the "Teeth Dataset", which is organized into three subsets: Training, Validation, and Testing. The dataset contains **7 classes** of dental images.
 
-- **Training Set**: [Number] images
-- **Validation Set**: [Number] images
-- **Test Set**: [Number] images
-
-The dataset is not included in this repository due to its size. To run this project, you must download the dataset and structure it as follows:
-
-```
-/path/to/your/dataset/
-├── Training/
-│   ├── Class_1/
-│   ├── Class_2/
-│   └── ...
-├── Validation/
-│   ├── Class_1/
-│   ├── Class_2/
-│   └── ...
-└── Testing/
-    ├── Class_1/
-    ├── Class_2/
-    └── ...
-```
-*(**Action**: Fill in the image counts and the correct class names, e.g., 'Caries', 'Healthy', etc. If you have a link to the dataset, add it here.)*
+- **Training Set**: 3087 images
+- **Validation Set**: 1028 images
+- **Test Set**: 1028 images
 
 ---
 
@@ -83,7 +64,7 @@ The final model (`teeth_cnn_2`) includes data augmentation and consists of the f
 
 ## Results & Evaluation
 
-The model with data augmentation achieved a test accuracy of **[Your Accuracy]%**. The training history and evaluation metrics are visualized below.
+The model with data augmentation achieved a test accuracy of **89%**. The training history and evaluation metrics are visualized below.
 
 ### Training and Validation Performance
 
