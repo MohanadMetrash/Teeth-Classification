@@ -44,6 +44,12 @@ The model was trained on the "Teeth Dataset", which is organized into three subs
 - **Validation Set**: 1028 images
 - **Test Set**: 1028 images
 
+### How to Get the Data
+
+You can download the dataset directly from Google Drive.
+
+[![Download Dataset](https://img.shields.io/badge/Dataset-Download_Zip-blue.svg)](https://drive.google.com/uc?export=download&id=1WEySXMFz6v1OgPkLKJ8QIp3Lk-eyTObY)
+
 ---
 
 ## Model Architecture
