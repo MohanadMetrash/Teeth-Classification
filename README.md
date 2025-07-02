@@ -70,8 +70,9 @@ The model with data augmentation achieved a test accuracy of **89%**. The traini
 
 The plots show that data augmentation helped in reducing overfitting, leading to a smaller gap between training and validation accuracy/loss.
 
-![Training and validation accuracy](results/Training and validation accuracy.png)
-![Training and validation loss](results/Training and validation loss.png)
+![Training and validation accuracy](results/Training_and_validation_accuracy.png)
+
+![Training and validation loss](results/Training_and_validation_loss.png)
 
 ### Confusion Matrix
 
@@ -87,46 +88,3 @@ Here are some examples of the model's predictions on the test set. (Green = Corr
 
 ---
 
-## Setup & Installation
-
-Follow these steps to set up the project environment. This project is best run in a Google Colab environment to leverage GPU support and easy integration with Google Drive.
-
-**1. Clone the repository:**
-```bash
-git clone https://github.com/your-username/teeth-classification-cnn.git
-cd teeth-classification-cnn
-```
-
-**2. Set up the Dataset:**
-- Download the dataset and place it in your Google Drive.
-- Ensure the folder structure matches the one described in the [Dataset](#dataset) section.
-
-**3. Install Dependencies:**
-It is recommended to use a virtual environment.
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-```
-Install the required packages:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Usage
-
-**1. Open the Notebook:**
-- Upload the `notebooks/teeth_classification.ipynb` file to your Google Colab or open it locally in Jupyter.
-
-**2. Mount Google Drive (if in Colab):**
-- The notebook will prompt you to mount your Google Drive to access the dataset.
-
-**3. Update File Paths:**
-- In the notebook, update the `zip_dir` and `main_dir` variables to point to the correct paths in your Google Drive.
-
-**4. Run the Cells:**
-- Execute the cells sequentially to preprocess the data, build the models, train them, and see the evaluation.
-
-**5. Saved Model:**
-The trained model (`teeth_classification_model_with_augmentation.keras`) is saved to Google Drive. You can load this model for future predictions without retraining.
